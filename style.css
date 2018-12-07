@@ -4,6 +4,11 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body, input {
+    background-color: #222222;
+    color: palevioletred;
+}
+
 #terminal {
     padding: 10px;
     display: grid;
@@ -20,6 +25,7 @@ p {
     border: none;
     font-size: 1em;
     line-break: normal;
+    color: white;
 }
 #input:focus {
     outline: none;
